@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SafewayWallet'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SafewayWallet.'
+  s.summary          = 'SafewayWallet is secure payment gateway.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,13 +28,14 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/nikhilnt1234/SafewayWallet.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
+  s.swift_versions = '4.2'
 
   s.source_files = 'SafewayWallet/Classes/**/*'
   
-   s.resource_bundles = {
-     'SafewayWallet' => ['SafewayWallet/Assets/*.png']
-  }
+#s.resource_bundles = {
+#     'SafewayWallet' => ['SafewayWallet/Assets/*.png']
+# }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
