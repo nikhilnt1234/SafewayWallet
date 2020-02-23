@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SafewayWallet_Tests' do
+  pod 'SafewayWallet', :path => '../'
+  
+  
+end
