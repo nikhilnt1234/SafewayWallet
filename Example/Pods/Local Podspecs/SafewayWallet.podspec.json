@@ -1,0 +1,22 @@
+{
+  "name": "SafewayWallet",
+  "version": "0.1.0",
+  "summary": "A short description of SafewayWallet.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/satheeshkumar1206/SafewayWallet",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "satheeshkumar1206": "orugantisatheesh@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/satheeshkumar1206/SafewayWallet.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SafewayWallet/Classes/**/*"
+}

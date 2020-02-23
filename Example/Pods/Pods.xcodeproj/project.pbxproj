@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02B9D6108004D4C676764208E48B6E2C /* SafewayWallet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F2EC865C09812314F9DD4AC74CB8089 /* SafewayWallet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36F5F2EB12A4B9CD14C2CC00B7B439FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3EC100EF35F9D656B0BC79FCB3AD2C17 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F7E433C62120D0A23F075B03F61323 /* ReplaceMe.swift */; };
+		740382976CC62DC1F43B6FE6472D5CBE /* Pods-SafewayWallet_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B58E0EC306BB547F7E9B4585A475032 /* Pods-SafewayWallet_Tests-dummy.m */; };
+		7F66D69DA439183B557BC2E7C7CACF2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		85D7F3FE9091388A9D3849D249E57DFA /* SafewayWallet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 313FE536C79331781B2BC621D8569018 /* SafewayWallet-dummy.m */; };
+		E6192AE45B6227C3102C97317537ABB3 /* Pods-SafewayWallet_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E50A29AB1779CBAB792E0A3608C870 /* Pods-SafewayWallet_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDEFDEB850620FE9F5965A49381AFC91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF9D5DD35C5D36CC91807283D290F032;
+			remoteInfo = SafewayWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07FDBC3F549AE9E561BD42C6E82DDB5A /* Pods-SafewayWallet_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SafewayWallet_Tests.modulemap"; sourceTree = "<group>"; };
+		16CFA52428EFF78E576321B8B0DE8383 /* Pods-SafewayWallet_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SafewayWallet_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1F2EC865C09812314F9DD4AC74CB8089 /* SafewayWallet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SafewayWallet-umbrella.h"; sourceTree = "<group>"; };
+		2853BD19F442D32C6778FB3013C1AE38 /* Pods-SafewayWallet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafewayWallet_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		28F7E433C62120D0A23F075B03F61323 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SafewayWallet/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		313FE536C79331781B2BC621D8569018 /* SafewayWallet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SafewayWallet-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F89936EC5AD36E01C679AD77B026056 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		494F4A992F2BCFDEB02DB50708A6F40F /* SafewayWallet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SafewayWallet.modulemap; sourceTree = "<group>"; };
+		4B58E0EC306BB547F7E9B4585A475032 /* Pods-SafewayWallet_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SafewayWallet_Tests-dummy.m"; sourceTree = "<group>"; };
+		600074E7B4B22A87980BD83B68C783D4 /* Pods-SafewayWallet_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SafewayWallet_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		643BA6B4B2CEC12B836BDAF8EC144861 /* Pods-SafewayWallet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SafewayWallet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D06B0FFA41E4334D8AF31F74C65B2EF /* SafewayWallet.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SafewayWallet.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		8190BCC4C8E0A97D0E509CD25B07CC52 /* SafewayWallet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SafewayWallet-prefix.pch"; sourceTree = "<group>"; };
+		88F9DCB008725CD4B7726A620CCBFAFD /* SafewayWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SafewayWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E50A29AB1779CBAB792E0A3608C870 /* Pods-SafewayWallet_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SafewayWallet_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9C3167D877FB77F60EFE8D9A19DAA5E4 /* Pods-SafewayWallet_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SafewayWallet_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A52EE6FB32664597820CD223EC6DBAE9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B9985C21CA833059077171D1BB9FEC14 /* Pods-SafewayWallet_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SafewayWallet_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C83F03586CE552EE1B210647074B47BB /* Pods_SafewayWallet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafewayWallet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6243E531E6EBF57C838675552940C3 /* SafewayWallet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SafewayWallet-Info.plist"; sourceTree = "<group>"; };
+		F9CF64A9BD7DDB26D35E473A72BF6C0D /* SafewayWallet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SafewayWallet.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C8FF939DEB366C9B72C4E40BD8598C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F5F2EB12A4B9CD14C2CC00B7B439FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3C8C685411BE9CEE3AF7FC5B67AFD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F66D69DA439183B557BC2E7C7CACF2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0267A5D7F5304D9E3A21D7B96B054174 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3F89936EC5AD36E01C679AD77B026056 /* LICENSE */,
+				A52EE6FB32664597820CD223EC6DBAE9 /* README.md */,
+				6D06B0FFA41E4334D8AF31F74C65B2EF /* SafewayWallet.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		07FD9D6EF24C920F08E74B060DD8E46E /* SafewayWallet */ = {
+			isa = PBXGroup;
+			children = (
+				28F7E433C62120D0A23F075B03F61323 /* ReplaceMe.swift */,
+				0267A5D7F5304D9E3A21D7B96B054174 /* Pod */,
+				573084C00E1134E343ECC08775DCD36D /* Support Files */,
+			);
+			name = SafewayWallet;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		53D30D9D36290C56C7844FAF5DC78B89 /* Pods-SafewayWallet_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				07FDBC3F549AE9E561BD42C6E82DDB5A /* Pods-SafewayWallet_Tests.modulemap */,
+				600074E7B4B22A87980BD83B68C783D4 /* Pods-SafewayWallet_Tests-acknowledgements.markdown */,
+				B9985C21CA833059077171D1BB9FEC14 /* Pods-SafewayWallet_Tests-acknowledgements.plist */,
+				4B58E0EC306BB547F7E9B4585A475032 /* Pods-SafewayWallet_Tests-dummy.m */,
+				16CFA52428EFF78E576321B8B0DE8383 /* Pods-SafewayWallet_Tests-frameworks.sh */,
+				9C3167D877FB77F60EFE8D9A19DAA5E4 /* Pods-SafewayWallet_Tests-Info.plist */,
+				94E50A29AB1779CBAB792E0A3608C870 /* Pods-SafewayWallet_Tests-umbrella.h */,
+				643BA6B4B2CEC12B836BDAF8EC144861 /* Pods-SafewayWallet_Tests.debug.xcconfig */,
+				2853BD19F442D32C6778FB3013C1AE38 /* Pods-SafewayWallet_Tests.release.xcconfig */,
+			);
+			name = "Pods-SafewayWallet_Tests";
+			path = "Target Support Files/Pods-SafewayWallet_Tests";
+			sourceTree = "<group>";
+		};
+		573084C00E1134E343ECC08775DCD36D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				494F4A992F2BCFDEB02DB50708A6F40F /* SafewayWallet.modulemap */,
+				F9CF64A9BD7DDB26D35E473A72BF6C0D /* SafewayWallet.xcconfig */,
+				313FE536C79331781B2BC621D8569018 /* SafewayWallet-dummy.m */,
+				EB6243E531E6EBF57C838675552940C3 /* SafewayWallet-Info.plist */,
+				8190BCC4C8E0A97D0E509CD25B07CC52 /* SafewayWallet-prefix.pch */,
+				1F2EC865C09812314F9DD4AC74CB8089 /* SafewayWallet-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SafewayWallet";
+			sourceTree = "<group>";
+		};
+		80AD6E4C6A84CBA8A83EAF1A987BBD95 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07FD9D6EF24C920F08E74B060DD8E46E /* SafewayWallet */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9967FDBD83186CE7543524FF032845D4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53D30D9D36290C56C7844FAF5DC78B89 /* Pods-SafewayWallet_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				80AD6E4C6A84CBA8A83EAF1A987BBD95 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DFF261548EA3D4E754DD46DFCF7D074B /* Products */,
+				9967FDBD83186CE7543524FF032845D4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFF261548EA3D4E754DD46DFCF7D074B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C83F03586CE552EE1B210647074B47BB /* Pods_SafewayWallet_Tests.framework */,
+				88F9DCB008725CD4B7726A620CCBFAFD /* SafewayWallet.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29F9DD841E92EB6866734481CD37F097 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6192AE45B6227C3102C97317537ABB3 /* Pods-SafewayWallet_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70DC260F964D7A9E8B4529BA20F809A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02B9D6108004D4C676764208E48B6E2C /* SafewayWallet-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B6F8DD0D98A5730B559AE7847B15DD6 /* Pods-SafewayWallet_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8B4E5B0D753BCF8E5CBC74517E9418F /* Build configuration list for PBXNativeTarget "Pods-SafewayWallet_Tests" */;
+			buildPhases = (
+				29F9DD841E92EB6866734481CD37F097 /* Headers */,
+				CBEFD63F505231A18C2674F842D8A540 /* Sources */,
+				9C8FF939DEB366C9B72C4E40BD8598C1 /* Frameworks */,
+				C6425A2FC8204D641B5CFFA646ADEBD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19E67B77B0CD2506B0E084B695913E5A /* PBXTargetDependency */,
+			);
+			name = "Pods-SafewayWallet_Tests";
+			productName = "Pods-SafewayWallet_Tests";
+			productReference = C83F03586CE552EE1B210647074B47BB /* Pods_SafewayWallet_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF9D5DD35C5D36CC91807283D290F032 /* SafewayWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994F7D22E18268D08E533252E4E8A5DD /* Build configuration list for PBXNativeTarget "SafewayWallet" */;
+			buildPhases = (
+				70DC260F964D7A9E8B4529BA20F809A5 /* Headers */,
+				B004370F4008B04645CA3B0274E7EB67 /* Sources */,
+				AE3C8C685411BE9CEE3AF7FC5B67AFD7 /* Frameworks */,
+				C1C71D1A331115BC13232745DB981950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SafewayWallet;
+			productName = SafewayWallet;
+			productReference = 88F9DCB008725CD4B7726A620CCBFAFD /* SafewayWallet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DFF261548EA3D4E754DD46DFCF7D074B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B6F8DD0D98A5730B559AE7847B15DD6 /* Pods-SafewayWallet_Tests */,
+				AF9D5DD35C5D36CC91807283D290F032 /* SafewayWallet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1C71D1A331115BC13232745DB981950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6425A2FC8204D641B5CFFA646ADEBD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B004370F4008B04645CA3B0274E7EB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC100EF35F9D656B0BC79FCB3AD2C17 /* ReplaceMe.swift in Sources */,
+				85D7F3FE9091388A9D3849D249E57DFA /* SafewayWallet-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBEFD63F505231A18C2674F842D8A540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740382976CC62DC1F43B6FE6472D5CBE /* Pods-SafewayWallet_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19E67B77B0CD2506B0E084B695913E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SafewayWallet;
+			target = AF9D5DD35C5D36CC91807283D290F032 /* SafewayWallet */;
+			targetProxy = DDEFDEB850620FE9F5965A49381AFC91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		016CAFC848319DE11CD62A9118510E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 643BA6B4B2CEC12B836BDAF8EC144861 /* Pods-SafewayWallet_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SafewayWallet_Tests/Pods-SafewayWallet_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SafewayWallet_Tests/Pods-SafewayWallet_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6699F7695564B3D77E6649890134346C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9CF64A9BD7DDB26D35E473A72BF6C0D /* SafewayWallet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SafewayWallet/SafewayWallet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SafewayWallet/SafewayWallet-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SafewayWallet/SafewayWallet.modulemap";
+				PRODUCT_MODULE_NAME = SafewayWallet;
+				PRODUCT_NAME = SafewayWallet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CC6E31836EA18FB33AA3180DB8B74D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2853BD19F442D32C6778FB3013C1AE38 /* Pods-SafewayWallet_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SafewayWallet_Tests/Pods-SafewayWallet_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SafewayWallet_Tests/Pods-SafewayWallet_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F906A4B258798BDC6813D0E1FB6A0015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9CF64A9BD7DDB26D35E473A72BF6C0D /* SafewayWallet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SafewayWallet/SafewayWallet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SafewayWallet/SafewayWallet-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SafewayWallet/SafewayWallet.modulemap";
+				PRODUCT_MODULE_NAME = SafewayWallet;
+				PRODUCT_NAME = SafewayWallet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994F7D22E18268D08E533252E4E8A5DD /* Build configuration list for PBXNativeTarget "SafewayWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6699F7695564B3D77E6649890134346C /* Debug */,
+				F906A4B258798BDC6813D0E1FB6A0015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8B4E5B0D753BCF8E5CBC74517E9418F /* Build configuration list for PBXNativeTarget "Pods-SafewayWallet_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016CAFC848319DE11CD62A9118510E31 /* Debug */,
+				CC6E31836EA18FB33AA3180DB8B74D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

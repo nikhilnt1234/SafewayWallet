@@ -1,0 +1,6 @@
+framework module SafewayWallet {
+  umbrella header "SafewayWallet-umbrella.h"
+
+  export *
+  module * { export * }
+}

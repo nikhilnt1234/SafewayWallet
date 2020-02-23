@@ -1,6 +1,6 @@
 # SafewayWallet
 
-[![CI Status](https://img.shields.io/travis/satheeshkumar1206/SafewayWallet.svg?style=flat)](https://travis-ci.org/satheeshkumar1206/SafewayWallet)
+[![CI Status](https://img.shields.io/travis/nikhilnt1234/SafewayWallet.svg?style=flat)](https://travis-ci.org/nikhilnt1234/SafewayWallet)
 [![Version](https://img.shields.io/cocoapods/v/SafewayWallet.svg?style=flat)](https://cocoapods.org/pods/SafewayWallet)
 [![License](https://img.shields.io/cocoapods/l/SafewayWallet.svg?style=flat)](https://cocoapods.org/pods/SafewayWallet)
 [![Platform](https://img.shields.io/cocoapods/p/SafewayWallet.svg?style=flat)](https://cocoapods.org/pods/SafewayWallet)
@@ -22,7 +22,7 @@ pod 'SafewayWallet'
 
 ## Author
 
-satheeshkumar1206, orugantisatheesh@gmail.com
+nikhilnt1234, Nikhiltanappagol.nt@gmail.com
 
 ## License
 
