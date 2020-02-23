@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'SafewayWallet/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SafewayWallet' => ['SafewayWallet/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'SafewayWallet' => ['SafewayWallet/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
